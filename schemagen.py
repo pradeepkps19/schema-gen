@@ -29,7 +29,7 @@ schema = generate_json_schema_from_file(filename)
 # Check if the output is a dictionary (which means it's a schema)
 if isinstance(schema, dict):
     # Prompt for a filename to save the schema
-    output_filename = './schema/' + filename[:-5] + 'Schema.txt'
+    output_filename = './schema/' + filename[:-5] + '-schema.txt'
 
     # Write the schema to the specified file
     try:
