@@ -1,9 +1,10 @@
+# API Schema Generator
 This is to generate the schema for APIs from the API response JSONs.
 
 The Python library - genson SchemaBuilder is used. 
 
 
-### Steps to generate Schema
+### Steps to generate
 1. Clone this repository to your Python3 installed machine.
 2. Install **genson** like: ```pip install genson``` from your terminal.
 3. Save your API responses as individual JSON files in the `responses` directory.
